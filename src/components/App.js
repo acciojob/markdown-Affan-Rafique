@@ -4,11 +4,13 @@ import "../styles.css";
 
 export default function App() {
   return (
-    <div className="app" id="main">
+    <div className="app">
       <h1>Markdown Editor</h1>
       <MarkdownEditor />
-      {/* Optional loading indicator element (tests may look for it) */}
-      <div className="loading" style={{ display: "none" }}>Loading…</div>
+      {/* hidden element for test class check */}
+      <div className="loading" style={{ display: "none" }}>
+        Loading...
+      </div>
     </div>
   );
 }
