@@ -30,4 +30,8 @@ const MarkdownEditor = () => {
   );
 };
 
+export default MarkdownEditor;
+  );
+};
+
 export default MarkdownEditor;
